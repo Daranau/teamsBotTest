@@ -83,6 +83,9 @@
     "validDomains": [],
     "webApplicationInfo": {
         "id": "{{state.fx-resource-aad-app-for-teams.clientId}}",
-        "resource": "{{{state.fx-resource-aad-app-for-teams.applicationIdUris}}}"
+        "resource": "{{{state.fx-resource-aad-app-for-teams.applicationIdUris}}}",
+        "applicationPermissions": [
+            "ChannelMessage.Read.Group"
+        ]
     }
 }
